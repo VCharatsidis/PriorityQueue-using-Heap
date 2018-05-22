@@ -1,0 +1,49 @@
+﻿  VectorCompleteTree.cpp
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\nodeposition.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Main.cpp
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\main.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\main.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\main.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\main.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\main.cpp(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\heappq.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\nodeposition.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\vectorcompletetree.cpp(20): error C2784: 'unknown-type std::operator -(const std::reverse_iterator<_RanIt> &,const std::reverse_iterator<_RanIt2> &)': could not deduce template argument for 'const std::reverse_iterator<_RanIt> &' from 'const NodePosition<T>'
+          with
+          [
+              T=Box *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(1288): note: see declaration of 'std::operator -'
+  c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\vectorcompletetree.cpp(19): note: while compiling class template member function 'int VectorCompleteTree<K>::idx(const NodePosition<T> &) const'
+          with
+          [
+              K=Box *,
+              T=Box *
+          ]
+  c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\vectorcompletetree.cpp(55): note: see reference to function template instantiation 'int VectorCompleteTree<K>::idx(const NodePosition<T> &) const' being compiled
+          with
+          [
+              K=Box *,
+              T=Box *
+          ]
+  c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\heappq.cpp(65): note: see reference to class template instantiation 'VectorCompleteTree<K>' being compiled
+          with
+          [
+              K=Box *
+          ]
+  c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\main.cpp(23): note: see reference to class template instantiation 'HeapPQ<Box *,Comparator>' being compiled
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\vectorcompletetree.cpp(20): error C2784: 'unknown-type std::operator -(const std::move_iterator<_RanIt> &,const std::move_iterator<_RanIt2> &)': could not deduce template argument for 'const std::move_iterator<_RanIt> &' from 'const NodePosition<T>'
+          with
+          [
+              T=Box *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(2197): note: see declaration of 'std::operator -'
+c:\users\vcharatsidis\documents\visual studio 2017\projects\heappq\heappq\vectorcompletetree.cpp(20): error C2676: binary '-': 'const NodePosition<T>' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              T=Box *
+          ]
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  HeapPQ.cpp
+  Comparator.cpp
